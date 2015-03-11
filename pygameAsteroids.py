@@ -1,6 +1,4 @@
 #   Drew Nagy-Kato
-#   Junior Knights
-#   11/16/14
 #   Asteroids!!!!
 
 
@@ -10,24 +8,24 @@ import pygame, sys, random, math
 from pygame.locals import *
 
 """ Added features:
-    + Implement asteroid generation
-    + Implement ship polygon rotation
+    + Implemented asteroid generation
+    + Implemented ship polygon rotation
     + Firing is semi-auto (only one bullet per spacebar press)
-    + Implement asteroid collision detection
-        + place all collision functions in asteroid class
-    + Implement multiple asteroid sizes (sml, med, lrg)
+    + Implemented asteroid collision detection
+        + placed all collision functions in asteroid class
+    + Implemented multiple asteroid sizes (sml, med, lrg)
         + when hit, randomly break into several smaller asteroids
             1 lrg -> 1-3 med
             1 med -> 1-4 sml
-    + Increase ship polygon complexity
+    + Increased ship polygon complexity
     + Asteroids reset upon death
-    + GAME OVER splash screen
+    + GAME OVER splash screen added
         + can quit via ESC or QUIT w/out seeing GAME OVER
-    + Add bullet movement wrapping on window edges
+    + Added bullet movement wrapping on window edges
 """
 
 ''' BUGS
-    - Occasional crash upon deceleration
+    - **Occasional** crash upon deceleration
 '''
 
 ''' TODO
